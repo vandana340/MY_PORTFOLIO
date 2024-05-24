@@ -13,6 +13,13 @@
 // }
 
 
+let skills = document.getElementById("skills");
+let experience = document.getElementById("experience");
+let education = document.getElementById("education");
+
+experience.addEventListener('click' , () => {
+    skills.style.display = 'hide';  
+})
 
 var sidemeu = document.getElementById("sidemenu");
 function openmenu(){
